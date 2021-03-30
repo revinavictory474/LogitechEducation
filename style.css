@@ -1,0 +1,869 @@
+body {
+    font-family: Roboto;
+}
+
+.header {
+    position: relative;
+}
+
+/* #toggle {
+    display: none;
+}
+
+#toggle:checked~nav {
+    left: 0;
+} */
+
+/* .header {
+    height: 80px;
+    background-color: #E0E1E2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+} */
+
+/* 
+.nav {
+    width: 100%;
+    height: 100vh;
+    background-color: #2F3132;
+    position: absolute;
+    top: 0;
+    left: -100vw;
+    transition: left .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* a {
+    color: blanchedalmond;
+    font-size: 24px;
+    padding: 8px;
+
+}
+
+.fas {
+    color: black;
+} */
+
+.collapse {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 73px;
+    left: 0px;
+    background-color: #E0E1E2;
+    transition: top .5s;
+}
+
+.header__logo_white {
+    display: none;
+}
+
+
+.heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 20px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+.top_text_margin {
+    width: 75%;
+    margin: auto;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 0px;
+}
+
+.text_margin {
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.text_flow {
+    margin-bottom: 23px;
+    text-align: left;
+    width: 222px;
+
+}
+
+.text_settings {
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 11px;
+}
+
+.top {
+    background: #E0E1E2;
+    padding-bottom: 48px;
+}
+
+.top__svg {
+    width: 42px;
+    height: 22px;
+}
+
+.top_img {
+    margin-top: 94px;
+    height: 230px;
+    background-image: url(LogitechEducation/img/MX-Master\ 1.svg);
+    background-size: contain;
+    margin-bottom: 41px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top_arrow {
+    margin-top: 40px;
+}
+
+.navbar {
+    padding-top: 25px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 31px;
+    height: 31px;
+    background-clip: content-box;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: -5rem;
+}
+
+
+
+.carousel-indicators .carousel-control-next-icon {
+    background-image: url(LogitechEducation/img/arrow-right.svg);
+    margin-right: calc(50% - 120px);
+}
+
+.carousel-indicators .carousel-control-prev-icon {
+    background-image: url(LogitechEducation/img/arrow-left.svg);
+    margin-left: calc(50% - 120px);
+}
+
+.carousel-indicators .active {
+    background-image: url(LogitechEducation/img/cloth-texture\ \(2\).png);
+}
+
+.carousel-indicators .active_1 {
+    background-image: url(LogitechEducation/img/glass-texture\ \(2\).png);
+}
+
+.carousel-indicators .active_2 {
+    background-image: url(LogitechEducation/img/linoleum-texture\ \(3\).png);
+}
+
+.carousel-indicators .active_3 {
+    background-image: url(LogitechEducation/img/marble-texture\ \(2\).png);
+}
+
+.carousel-indicators .active_4 {
+    background-image: url(LogitechEducation/img/wood-texture\(2\).png);
+}
+
+
+.navbar-light .navbar-toggler {
+    position: absolute;
+    right: 25px;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    justify-content: center;
+}
+
+
+.bluetooth {
+    background: #EDEDED;
+    padding-top: 42px;
+    padding-bottom: 22px;
+}
+
+.info__slider_media_2 {
+    display: none;
+}
+
+.bluetooth__icon {
+    margin-bottom: 27px;
+}
+
+.bluetooth__heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    margin-top: 31px;
+}
+
+.bluetooth__img {
+    height: 284px;
+    background-image: url(LogitechEducation/img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+.info {
+    padding-top: 70px;
+    padding-bottom: 77px;
+}
+
+.info__item {
+    border: 1px solid #2F3132;
+    flex-basis: 166px;
+    padding-left: 17px;
+    padding-right: 17px;
+    min-height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info__content {
+    margin-top: 30px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.info__heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+}
+
+.info__slider_media_1 {
+    display: none;
+}
+
+.carousel {
+    margin-bottom: 100px;
+}
+
+.info__text {
+    margin-left: 67px;
+    margin-right: 61px;
+}
+
+.info__item-heading {
+    margin-bottom: 5px;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(LogitechEducation/img/menu-burger.svg);
+}
+
+.flow {
+    padding-top: 70px;
+    padding-bottom: 218px;
+    background-image: url(LogitechEducation/img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.jpg);
+    background-color: #EDEDED;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.flow__ol {
+    margin-top: 36px;
+    padding-left: 54px;
+}
+
+.settings {
+    padding-top: 70px;
+    background: #EDEDED;
+
+}
+
+.setting_slider_media {
+    display: none;
+}
+
+.settings__slider {
+    margin: 35px 22px 98px 23px;
+}
+
+.settings__slider-img {
+    display: none;
+}
+
+.settings__content {
+    background: #C4C4C4;
+    padding: 23px 22px 26px 29px;
+}
+
+.settings__icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.mouse__text {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.mouse__img {
+    height: 310px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mouse__img_1 {
+    background-image: url(LogitechEducation/img/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2.jpg);
+}
+
+.mouse__img_2 {
+    background-image: url(LogitechEducation/img/image\ 2.jpg);
+}
+
+.footer {
+    background: #2F3132;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    color: #C7C8C8;
+    padding-top: 22px;
+}
+
+@media (min-width: 768px) {
+    .top {
+        padding-bottom: 80px;
+    }
+
+    .navbar {
+        padding-top: 54px;
+    }
+
+    .top_img {
+        margin-top: 159px;
+        height: 514px;
+        margin-bottom: 124px;
+    }
+
+    .heading {
+
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 30px;
+    }
+
+    .header__logo {
+        width: 240px;
+    }
+
+    .text {
+
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .text_margin {
+        margin-left: 77px;
+        margin-left: 77px;
+    }
+
+    .top_text_margin {
+        width: 60%;
+        margin: auto;
+    }
+
+    .top_arrow {
+        margin-top: 76px;
+    }
+
+    .top__svg {
+        width: 61px;
+        height: 33px;
+    }
+
+    .bluetooth {
+        padding-top: 80px;
+        padding-bottom: 3px;
+    }
+
+    .info__slider_media_2 {
+        display: none;
+    }
+
+    .bluetooth__heading {
+
+        font-size: 150px;
+        line-height: 176px;
+    }
+
+    .bluetooth__img {
+        height: 597px;
+        margin-left: 39px;
+        margin-right: 19px;
+    }
+
+    .info__content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 30px;
+    }
+
+    .info__item-heading {
+        margin-bottom: 5px;
+    }
+
+    .info__item {
+        min-height: 170px;
+    }
+
+    .info__slider_mobile {
+        display: none;
+    }
+
+    .info__slider_media_1 {
+        display: block;
+    }
+
+    .info__heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .carousel-indicators .carousel-control-next-icon {
+        background-image: url(LogitechEducation/img/arrow-right.svg);
+        margin-right: calc(50% - 200px);
+    }
+
+
+    .carousel-indicators .carousel-control-prev-icon {
+        background-image: url(LogitechEducation/img/arrow-left.svg);
+        margin-left: calc(50% - 200px);
+    }
+
+    .flow {
+        padding-bottom: 498px;
+        padding-left: 64px;
+        padding-right: 65px;
+    }
+
+    .text_flow-p {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .flow__ol {
+        display: flex;
+        list-style-position: inside;
+        padding-left: 0px;
+    }
+
+    .text_flow {
+        width: auto;
+        padding: 8px 21px 4px 28px;
+        font-size: 20px;
+        line-height: 23px;
+        border-left: 1px solid #494949;
+    }
+
+    .text_flow:first-child {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .text_flow:last-child {
+        padding-right: 0;
+    }
+
+    .settings {
+        padding-bottom: 70px;
+    }
+
+    .setting_slider_mobile {
+        display: none;
+    }
+
+    .setting_slider_media {
+        display: block;
+    }
+
+    .settings__slider {
+        margin: 54px 198px 150px;
+    }
+
+    .settings__content {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+
+    .settings__icons {
+        margin-right: 104px;
+        margin-left: 98px;
+    }
+
+    .settings__img {
+        height: 35px;
+    }
+
+    .heading_settings {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+
+    .text_settings-p {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+
+    .text_settings {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .text_mouse {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .mouse__text {
+        padding-left: 67px;
+        padding-right: 65px;
+        padding-bottom: 50px;
+    }
+
+    .mouse__img {
+        height: 549px;
+    }
+
+    .mouse__img_1 {
+        background-image: url(LogitechEducation/img/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2\ \(1\).jpg);
+    }
+
+    .mouse__img_2 {
+        background-image: url(LogitechEducation/img/image\ 2\ \(1\).jpg);
+    }
+
+    .footer {
+        font-size: 14px;
+        line-height: 16px;
+        height: 150px;
+        padding-top: 47px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .center_media {
+        padding-left: calc(50% - 580px);
+        padding-right: calc(50% - 580px);
+    }
+
+    .header {
+        background: #2F3132;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header__mouse {
+        background-color: white;
+        text-align: right;
+    }
+
+    .header__logo_dark {
+        display: none;
+    }
+
+    .header__logo_white {
+        display: block;
+        width: 150px;
+    }
+
+    .heading {
+
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 35px;
+    }
+
+    .text {
+
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        border-bottom: 1px solid #fff;
+        font-style: normal;
+        font-weight: 500px;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .nav-item {
+        padding-left: 21px;
+        padding-right: 21px;
+        border-right: 1px solid #494949;
+    }
+
+    .nav-item:first-child {
+        padding-left: 0;
+    }
+
+    .nav-item:last-child {
+        padding-right: 0px;
+        border: none;
+    }
+
+    .top__img {
+        margin-top: 20px;
+        height: 671px;
+        padding-top: 80px;
+        margin-bottom: 8px;
+    }
+
+    .top_arrow {
+        margin-top: 49px;
+    }
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+
+    .bluetooth__img {
+        height: 427px;
+        background: url(LogitechEducation/img/High_Resolution_PNG-MX\ Master\ 3\ FRONT\ GRAPHITE\ 1.png) no-repeat 0 119px, url(LogitechEducation/img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png) no-repeat right 119px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .center_bluetooth {
+        padding-left: calc(50% - 622px);
+        padding-right: calc(50% - 622px);
+    }
+
+    .bluetooth {
+        padding-bottom: 80px;
+    }
+
+    .info__slider_media_2 {
+        display: block;
+    }
+
+    .info__slider_media_1 {
+        display: none;
+    }
+
+    .bluetooth__heading {
+
+        font-size: 96px;
+        line-height: 112px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bluetooth__heading_day-mini {
+        padding-top: 45px;
+    }
+
+    .bluetooth__heading_day {
+        font-size: 300px;
+        line-height: 352px;
+        padding-left: 74px;
+    }
+
+    .info {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .info__text {
+        width: 765px;
+        margin: auto;
+    }
+
+    .info__item {
+        min-height: 140px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .info__item-heading {
+        margin-bottom: 5px;
+    }
+
+    .info__slider {
+        padding-left: calc(50% - 640px);
+        padding-right: calc(50% - 640px);
+    }
+
+    .text_info {
+        width: 765px;
+        margin: auto;
+    }
+
+    .flow {
+        padding-bottom: 870px;
+    }
+
+    .flow_center {
+        padding-left: calc(50% - 479px);
+        padding-right: calc(50% - 479px);
+    }
+
+    .flow__ol {
+        margin-left: 15px;
+    }
+
+    .settings {
+        padding-bottom: 100px;
+    }
+
+    .settings__slider {
+        display: none;
+    }
+
+    .settings__slider-img {
+        display: flex;
+        justify-content: center;
+        margin-top: 71px;
+    }
+
+    .settings__content {
+        width: 749px;
+        margin: auto;
+    }
+
+    .text_settings-p {
+        width: 958px;
+        margin: auto;
+    }
+
+    .mouse {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mouse_center {
+        padding-left: cacl(50% -655px);
+        padding-right: cacl(50% -655px);
+    }
+
+    .mouse__item {
+        height: 557px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mouse__text_1 {
+        padding-right: 217px;
+        order: 2;
+    }
+
+    .mouse__text_1 .heading {
+        text-align: left;
+    }
+
+    .mouse__text_1 .text {
+        text-align: left;
+    }
+
+    .mouse__text_2 {
+        padding-left: 217px;
+        order: 3;
+    }
+
+    .mouse__text_2 .heading {
+        text-align: right;
+    }
+
+    .mouse__text_2 .text {
+        text-align: right;
+    }
+
+    .mouse__img_1 {
+        order: 1;
+        background-image: url(LogitechEducation/img/image\ 111.png);
+    }
+
+    .mouse__img_2 {
+        order: 4;
+        background-image: url(LogitechEducation/img/image\ 222.png);
+    }
+
+
+}
